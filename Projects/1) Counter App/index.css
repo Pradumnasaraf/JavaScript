@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+h2{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 5px;
+}
+#increment-btn{
+    background-color: burlywood;
+}
+#save-btn{
+    background-color:chartreuse;
+}
+p{
+    margin-top: 10px;
+    font-weight: bold;
+    tab-size: 30px;
+}
