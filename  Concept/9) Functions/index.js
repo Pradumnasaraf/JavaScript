@@ -25,5 +25,17 @@ toCelsius(100)
 
 let root = "The sqyare root =" + sqaureRoot(3) // aslo be used a variable
 
-
+function genrateSetense(desc, arr){ // will take array (2nd para)
+    let message = `The ${arr.length} ${desc} are `
+    for(i=0;i<arr.length;i++){
+        if(i===arr.length-1){
+            message += arr[i]
+        }else{
+            message += arr[i]+", "
+        }
+        
+    }
+    return message
+}
+console.log(genrateSetense("best countires",["INDIA", "CHINA", "USA"]))
 
