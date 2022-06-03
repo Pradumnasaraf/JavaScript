@@ -5,19 +5,20 @@
 // var -Varibales
 
 var x; // declaring of a variabale
-x=12; //assigning a value
+x = 12; //assigning a value
 
 // const - Constanr
 
 const y = 25;
 
 // Declare many variables in one statement.
-let person = "John Doe", carName = "Volvo", price = 200;
+let person1 = "John Doe" , carName = "Volvo", price = 200;
+
 
 //OR in Multi line
-let person = "John Doe", 
-carName = "Volvo", 
-price = 200;
+let person = "John Doe",
+    carName1 = "Volvo",
+    price1 = 200;
 
 
 /**** STRING CONCATINATION**/

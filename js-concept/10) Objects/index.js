@@ -34,5 +34,5 @@ let airbnbCastle ={
 console.log(airbnbCastle.place)
 console.log(airbnbCastle.meals)
 console.log(airbnbCastle.discount)
-airbnbCastle.sayHello() // object with methods
+airbnbCastle.placename() // object with methods
 
